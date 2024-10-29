@@ -1,0 +1,609 @@
+/*Cambiando el tipo de letra y el tamaño del titulo*/
+#titulo {
+    font-family: Verdana, sans-serif;
+    font-size: 26px;
+  }
+
+  /*Cambiando el tipo de letra con la propiedad font*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Alineando el texto con la propiedad text-aling*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    text-align: center;
+  }
+
+  /*Definiendo el espacio entre palabras con la propiedad word-spacing*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    text-align: center;
+    word-spacing: 20px;
+  }
+
+  /*Eliminando las líneas en enlaces de nuestro documento*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  /*Cargando un tipo de letra personalizado para el título*/
+  #titulo {
+    font: bold 26px MiNuevaLetra, Verdana, sans-serif;
+  }
+  @font-face {
+    font-family: "MiNuevaLetra";
+    src: url("font.ttf");
+  }
+
+  /*Asignando un color al título*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+    color: #CCCCCC;
+  }
+
+  /*Asignando un color con la función rgb()*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+    color: rgb(204, 204, 204);
+  }
+
+  /*Asignando un color con la función hsl()*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+    color: hsl(0, 0%, 80%);
+  }
+
+  /*Asignando un ancho personalizado*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    width: 200px;
+  }
+
+  /*Asignando una altura personalizada*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    width: 200px;
+    height: 100px;
+  }
+
+  /*Ocultando el contenido que desborda el elemento*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  /*Incorporando barras de desplazamiento*/
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+  #descripcion {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+
+  /*Agregando márgenes y relleno*/
+  header {
+    margin: 30px;
+    padding: 15px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando un color de fondo*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #CCCCCC;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando una imagen de fondo*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("ladrillosclaros.jpg");
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Configurando el fondo*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("ladrillosclaros.jpg");
+    background-repeat: repeat-y;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Configurando el fondo con la propiedad background*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background: #CCCCCC url("ladrillosclaros.jpg") repeat-y;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando un borde al elemento*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Definiendo un borde con la propiedad border*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 5px dashed #CCCCCC;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Generando esquinas redondeadas*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Declarando diferentes valores para cada esquina*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px 10px 30px 50px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Generando esquinas elípticas*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px / 10px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando un segundo borde a la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #999999;
+    outline: 2px dashed #000000;
+    outline-offset: 15px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un borde personalizado para la caja de la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 29px solid;
+    border-image-source: url("diamantes.png");
+    border-image-slice: 29;
+    border-image-repeat: stretch;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Definiendo el borde con la propiedad border-image*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 29px solid;
+    border-image: url("diamantes.png") 29 round;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando una sombra a la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: rgb(150,150,150) 5px 5px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando el valor de difuminado con la propiedad box-shadow*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: rgb(150,150,150) 5px 5px 20px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Expandiendo la sombra*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: rgb(150,150,150) 10px 10px 20px 10px;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando una sombra interna*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Agregando una sombra al título*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+    text-shadow: rgb(150, 150, 150) 3px 3px 5px;
+  }
+
+  /*Agregando una gradiente lineal a la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(top, #FFFFFF, #666666);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Estableciendo la posición inicial*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(top right, #FFFFFF, #666666);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un gradiente con una dirección de 30 grados*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(30deg, #FFFFFF, #666666);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un gradiente multicolor*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(top, #000000, #FFFFFF, #999999);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un gradiente translúcido*/
+  body {
+    background: url("ladrillosclaros.jpg");
+  }
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(top, transparent, #666666);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Configurando los puntos de comienzo y final de cada color*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-linear-gradient(top, #FFFFFF 50%, #666666 90%);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un gradiente radial*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-radial-gradient(center, ellipse, #FFFFFF, #000000);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando un gradiente radial multicolor*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    background: -webkit-radial-gradient(30px 50px, ellipse, #FFFFFF 50%, #666666 70%, #999999 90%);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Aplicando un filtro a la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    filter: blur(5px);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Escalando la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: scale(2);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando una imagen espejo con la función scale()*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: scale(1, -1);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Rotando la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: rotate(30deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Inclinando la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: skew(20deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Moviendo la cabecera hacia la derecha*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: translate(100px);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Moviendo, escalando y rotando el elemento con una sola propiedad*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: translateY(100px) rotate(45deg) scaleX(0.3);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Aplicando un efecto tridimensional a la cabecera*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: perspective(500px) rotate3d(0, 1, 0, 45deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Declarando un origen diferente para el espectador*/
+  body {
+    perspective: 500px;
+    perspective-origin: 50% 90%;
+  }
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transform: rotate3d(0, 1, 0, 135deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Respondiendo al ratón*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+  }
+  header:hover {
+    transform: rotate(5deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando una animación con la propiedad transition*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    transition: transform 1s ease-in-out 0s;
+  }
+  header:hover {
+    transform: rotate(5deg);
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Creando una animación compleja*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    animation: mianimacion 1s ease-in-out 0s infinite normal none;
+  }
+  @keyframes mianimacion {
+    0% {
+      background: #FFFFFF;
+    }
+    50% {
+      background: #FF0000;
+    }
+    100% {
+      background: #FFFFFF;
+    }
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }
+
+  /*Declarando más pasos para nuestra animación*/
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    animation: mianimacion 1s ease-in-out 0s infinite normal none;
+  }
+  @keyframes mianimacion {
+    20% {
+      background: #FFFFFF;
+    }
+    35% {
+      transform: scale(0.5);
+      background: #FFFF00;
+    }
+    50% {
+      transform: scale(1.5);
+      background: #FF0000;
+    }
+    65% {
+      transform: scale(0.5);
+      background: #FFFF00;
+    }
+    80% {
+      background: #FFFFFF;
+    }
+  }
+  #titulo {
+    font: bold 26px Verdana, sans-serif;
+  }

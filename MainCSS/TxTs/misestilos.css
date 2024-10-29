@@ -1,0 +1,89 @@
+body {
+    background: url("ladrillosclaros.jpg");
+    perspective: 500px;
+    perspective-origin: 50% 90%;
+}
+header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #CCCCCC;
+    background-image: url("ladrillosclaros.jpg");
+    background-repeat: repeat-y;
+    background: #CCCCCC url("ladrillosclaros.jpg") repeat-y;
+    border-style: solid;
+    border-width: 2px;
+    border: 5px dashed #CCCCCC;
+    border-radius: 20px / 10px;
+    outline: 2px dashed #000000;
+    outline-offset: 15px;
+    border-image-source: url("diamantes.png");
+    border-image-slice: 29;
+    border-image-repeat: stretch;
+    box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+    background: -webkit-linear-gradient(top right, #FFFFFF, #666666);
+    background: -webkit-linear-gradient(30deg, #FFFFFF, #666666);
+    background: -webkit-linear-gradient(top, #000000, #FFFFFF, #999999);
+    background: -webkit-linear-gradient(top, transparent, #666666);
+    background: -webkit-linear-gradient(top, #FFFFFF 50%, #666666 90%);
+    background: -webkit-radial-gradient(center, ellipse, #FFFFFF, #000000);
+    background: -webkit-radial-gradient(30px 50px, ellipse, #FFFFFF 50%, #666666 70%, #999999 90%);
+    transform: scale(2);
+    transform: scale(1, -1);
+    transform: rotate(30deg);
+    transform: skew(20deg);
+    transform: translate(100px);
+    transform: translateY(100px) rotate(45deg) scaleX(0.3);
+    transform: perspective(500px) rotate3d(0, 1, 0, 45deg);
+    transform: rotate3d(0, 1, 0, 135deg);
+    transition: transform 1s ease-in-out 0s;
+    animation: mianimacion 1s ease-in-out 0s infinite normal none;
+}
+@keyframes mianimacion {
+    20% {
+      background: #FFFFFF;
+    }
+    35% {
+      transform: scale(0.5);
+      background: #FFFF00;
+    }
+    50% {
+      transform: scale(1.5);
+      background: #FF0000;
+    }
+    65% {
+      transform: scale(0.5);
+      background: #FFFF00;
+    }
+    80% {
+      background: #FFFFFF;
+    }
+  }
+ 
+header:hover {
+        transform: rotate(5deg);
+  }
+#titulo {
+    font-family: Verdana, sans-serif;
+    font-size: 26px;
+    font: bold 26px Verdana, sans-serif;
+    color: #CCCCCC;
+    color: rgb(204, 204, 204);
+    color: hsl(0, 0%, 80%);
+    text-shadow: rgb(150, 150, 150) 3px 3px 5px;
+  }
+  #descripcion {
+    text-align: center;
+    word-spacing: 20px;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    overflow: scroll;
+  }
+  a {
+    text-decoration: none;
+  }
+  @font-face {
+    font-family: "MiNuevaLetra";
+    src: url("font.ttf");
+  }
